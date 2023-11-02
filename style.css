@@ -13,7 +13,7 @@
 }
 body{
     margin: 0;
-    /* overflow: hidden; */
+    overflow-x: hidden;
 }
 
 .head{
@@ -27,6 +27,7 @@ body{
     padding: -1.5px 6px 19px 21px;
     object-fit: contain;
     text-align:center;
+    margin-left: 34px;
     
 }
 .content-write{
@@ -58,7 +59,7 @@ body{
     
 .nav-bar{
     color: white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:8e7505f4e7be967217d81781b49425bc1597997165;
     font-size: large;
     width: 100%;
     display: flex;
@@ -68,10 +69,11 @@ body{
     margin-top: -117px;
     padding-top: 115px;
     gap: 41px;
+    cursor: pointer;
 }
 .content1{
     display: block;
-    font-size: 33px;
+    font-size: 37px;
     /* margin-block-start: 34.5px;
     /* margin-block-end: 16.67em; */
     /* margin-inline-start: 92px;
@@ -102,14 +104,16 @@ body{
     padding-top: 10px;
 }
 .description{
-    color: dimgrey;
-    
+    color: rgb(150, 147, 147);
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
     margin: auto;
     margin-top: -34px;
-    line-height: 2.3;
-
+    line-height: 161%;
+    max-width: 55rem;
 
 }
 .description p{
@@ -151,6 +155,7 @@ body{
     border-radius: 0.8rem;
     background: rgb(255, 255, 255);
     border: 1px solid rgb(232, 232, 232);
+    cursor: pointer;
 }
 
 
@@ -164,6 +169,7 @@ body{
 .state-container{
     display:flex;
     flex-wrap: wrap;
+    margin-top: 61px;
     gap:13px;
 }
 .all-coun{
@@ -193,7 +199,7 @@ body{
     display:flex;
 }
 .footer-content{
-    height:480px;
+    height:440px;
     width:1100px;
     margin: auto;
 }
@@ -214,6 +220,7 @@ body{
     border: 1px solid rgb(181, 181, 181);
     border-radius: 0.6rem;
     display:flex;
+    cursor: pointer;
     gap:3px;
     /* align-items: center; */
 }
@@ -269,6 +276,7 @@ margin: 0px 0px 1.2rem;
 .media{
     display: flex;
     gap:10px;
+    cursor: pointer;
     
 }
 .micon{
@@ -279,5 +287,9 @@ margin: 0px 0px 1.2rem;
 .applink{
     width: 145px;
     height: 38px;
+    cursor: pointer;
 
+}
+.box1{
+    cursor: pointer;
 }
